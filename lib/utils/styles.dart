@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 smallTextStyle({Color color = const Color(0xffffffff)})=>TextStyle(

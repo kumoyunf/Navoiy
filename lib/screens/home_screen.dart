@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navoiy/models/data_model.dart';
 import 'package:navoiy/service/data_service.dart';
 import 'package:navoiy/utils/colors.dart';
 import 'package:navoiy/utils/consts.dart';
@@ -60,16 +61,21 @@ class HomeScreen extends StatelessWidget {
                     },
                     itemBuilder: (context, index) {
                       final data = DataService().getData()[index];
-                      return Transform(
-                        transform: Matrix4.skewX(-0.3),
-                        child: Container(
-                          width: 400,
-                          height: 40,
-                          color: Colors.white,
-                          child: Center(
-                            child: Text(
-                              data.title,
-                              style: smallTextStyle(color: Colors.black),
+                      return GestureDetector(
+                        onTap: (){
+                          Navigator.of(context).pushNamed('/chapter', arguments: [data.title, data.data.map((e)=>Data.fromJson(e)).toList()]);
+                        },
+                        child: Transform(
+                          transform: Matrix4.skewX(-0.3),
+                          child: Container(
+                            width: 400,
+                            height: 40,
+                            color: Colors.white,
+                            child: Center(
+                              child: Text(
+                                data.title,
+                                style: smallTextStyle(color: Colors.black),
+                              ),
                             ),
                           ),
                         ),

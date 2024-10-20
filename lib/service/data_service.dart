@@ -1,4 +1,4 @@
-import 'package:navoiy/models/data_model.dart';
+import '../../models/data_model.dart';
 
 import '../data/data.dart';
 
