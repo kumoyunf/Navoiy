@@ -51,7 +51,31 @@ matlaʼi bilan boshlanadigan gʻazalini oʻqiydi. Sheʼrdan hayratga tushgan kek
   {
     "title": "II Bob. Lirik merosi",
     "data": [
+      {
+        "title": "Xamsa",
+        "data": [
+          '''Alisher Navoiy ijodining yuksak choʻqqisi „Xamsa“ asari (1483–1485)dir, shoir birinchilardan boʻlib, turkiy tilda toʻliq „Xamsa“ yaratdi va turkiy tilda shunday koʻlamdor asar yozish mumkinligini isbotlab berdi. Ushbu toʻplamni Nizomiy Ganjaviyning „Panj Ganj“ („Besh xazina“) asariga havas sifatida yozilganligini oʻquvchilarga anglatmoq maqsadida „Xamsa“ning kirish qismida:
 
+„Emas oson bu maydon ichra turmoq,
+Nizomiy panjasigʻa panja urmoq.“
+
+deya taʼkid etadi.
+
+„Xamsa“ tarkibiga „Hayrat ul-abror“, „Farhod va Shirin“, „Layli va Majnun“, „Sabʼai sayyor“, „Saddi Iskandariy“ kabi dostonlar kiradi.
+
+"Hayratul-abror"da hamd, munojot, naʼt, hayrat boblaridan keyin shoirning Yaratganga, borliqqa, tabiatga, insonga boʻlgan falsafiy, ijtimoiy-siyosiy, iqtisodiy, ilmiy, maʼrifiy, axloqiy va estetik munosabati aks ettirilgan. Podshoh bilan ulusning insonlik nuqtai nazaridan ayirmasiz, farqsizligini, podshohning hunar, axloq, adl, insof, mantiq, taqvo yoʻlida ulusdan oʻta olmaganini anglatish bilan oʻzining adolatli shoh haqidagi qarashlarini anglatadi.
+
+„Farhod va Shirin“da qahramonlar sevgi sarguzashtlari orqali insonning tarix va kelajak oldidagi vazifasini belgilaydi, insonlik faqat muhabbatda emas, balki oʻsha sharafli nomning himoyasi orqali ekanini uqdiradi. Sharq tarixidagi Xusrav va Shirin voqeasini badiiy jihatdan qayta ishlab, Farhod orqali oʻzining komil inson haqidagi qarashlarini ifoda qilgan. Navoiy dostoni orqali Firdavsiy, Nizomiy, Dehlaviy anʼanalari yangilangan boʻlsa, undan keyin bu syujet turk mumtoz adabiyotining oʻzak muammolarini hal etishda asosiy oʻrin tutdi va bu yoʻnalishda Ahmad rizvon, Jaliliy, Harimiy, Bafqiy, Urfi Sheroziy, Lamiiy, Nizoriy va boshqa dostonlari yaratildi.
+
+„Layli va Majnun“ dostonida arab ertaklari orqali maʼlum syujet oʻzining tugal shaklini topdi, unda ishq falsafasi betakror uslubda ifoda qilindi. Keyinroq yaratilajak Fuzuliy, Andalib, Sayqaliy dostonlari uchun maʼnaviy zamin boʻldi. „Xamsa“ tarkibidagi „Sabʼai sayyor“ va „Saddi Iskandariy“da shohlik bilan bogʻliq masalalarni birinchi oʻringa olib chiqdi. Bu dostonlar xamsanavislik anʼanasida oʻzining ijtimoiy-siyosiy xarakteri va originalligi bilan ajralib turadi. „Xamsa“ga ustoz Abdurahmon Jomiy (1414–1492) yuqori baho berdi.
+
+OʻR FA ShI qoʻlyozmalar fondida XV–XX asrlarda koʻchirilgan 166 qoʻlyozma saqlanadi. Ulardan 84 tasida beshlikning hamma dostonlari berilgan.
+
+„Xamsa“ haqida xorijiy olimlar A.Vamberi, J.Malokolin, F.Richard, L.Vari, Y.Ekman, E.Partele; rus tadqiqotchilari I.Krachkovskiy, V.Bartold, E.Bertels, Konrad, B.Jirmunskiy, A.Yakubovskiy, A.Semyonov; turk olimlari F.Koʻprulu, A.S.Levend, K. Eraslon; ozar olimlari H. Arasli, G. Aliev; oʻzbek olimlari Fitrat, I.Sulton, V.Zohidov, A.Qayumov, T.Jalolov, Sodir Erkinov, S.Nazrullaeva, A.Abdugʻafurov, M.Hakimov, S.Hasanov v.b. ishlari maʼlum.
+
+OʻzMUda „Xamsa“ni tadqiq etish borasida B.Qosimov, B.Akrom, H.Boltaboev, A.Erkinov, D.Farmonova tadqiqot ishlari olib bormoqdalar. '''
+        ]
+      }
     ]
   },
   {
