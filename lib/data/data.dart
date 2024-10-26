@@ -96,5 +96,15 @@ OʻzMUda „Xamsa“ni tadqiq etish borasida B.Qosimov, B.Akrom, H.Boltaboev, A.
 
     ]
   },
+];
 
+List<dynamic> authors = [
+  {
+    "name": "Akobir Xushvaqtov",
+    "description": "Web Developer",
+  },
+  {
+    "name": "Xumoyun Xakimjonov",
+    "description": "Mobile Developer",
+  }
 ];
