@@ -16,8 +16,9 @@ class Footer extends StatelessWidget {
         children: [
           IconButton(
               onPressed: () async {
-                await launch('https://t.me/xumoyunf');
+                await launchUrl(Uri(scheme: 'https', path: 't.me/xumoyunf'));
               },
+              tooltip: "t.me/xumoyunf",
               icon: const HugeIcon(
                 icon: HugeIcons.strokeRoundedTelegram,
                 size: 40.0,
@@ -25,8 +26,9 @@ class Footer extends StatelessWidget {
               )),
           IconButton(
               onPressed: () async {
-                await launch('https://xakimjonov.aqulas.me');
+                await launchUrl(Uri(scheme: 'https', path: 'xakimjonov.aqulas.me'));
               },
+              tooltip: "https://xakimjonov.aqulas.me",
               icon: const HugeIcon(
                 icon: HugeIcons.strokeRoundedGlobe02,
                 size: 40.0,
@@ -36,6 +38,7 @@ class Footer extends StatelessWidget {
               onPressed: () async {
                 await launchUrl(Uri(scheme: 'tel', path: '+998958585424'));
               },
+              tooltip: "+998958585424",
               icon: const HugeIcon(
                 icon: HugeIcons.strokeRoundedCall,
                 size: 40,

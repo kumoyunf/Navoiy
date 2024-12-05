@@ -5,7 +5,7 @@ const btnColor = Color(0xffecc2ff);
 const light = Color(0xffffffff);
 const gold = Color(0xffffac12);
 const dark = Color(0xff000000);
-const textColor = Color(0xff);
+const textColor = Color(0xff000000);
 
 const seaGreen = Color(0xff2E8B57);
 const khaki = Color(0xffF0E68C);

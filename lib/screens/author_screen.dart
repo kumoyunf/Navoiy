@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navoiy/data/data.dart';
 import 'package:navoiy/models/author_model.dart';
 import 'package:navoiy/utils/colors.dart';
 import 'package:navoiy/utils/styles.dart';
@@ -25,8 +26,22 @@ class AuthorScreen extends StatelessWidget {
           child: ListView.builder(
               itemCount: authors.length,
               itemBuilder: (context, index) {
+                Color cardColor;
+
+                switch (authors[index].category) {
+                  case Category.dotsent:
+                    cardColor = btnColor;
+                    break;
+                  case Category.teacher:
+                    cardColor = btnColor;
+                    break;
+                  case Category.student:
+                  default:
+                    cardColor = gold;
+                    break;
+                }
                 return Card(
-                  color: gold,
+                  color: cardColor,
                   child: ListTile(
                     title: Text(authors[index].name),
                     subtitle: Text(authors[index].description),

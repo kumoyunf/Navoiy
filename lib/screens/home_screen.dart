@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hugeicons/hugeicons.dart';
 import 'package:navoiy/models/data_model.dart';
 import 'package:navoiy/service/data_service.dart';
 import 'package:navoiy/utils/colors.dart';
 import 'package:navoiy/utils/consts.dart';
 import 'package:navoiy/utils/styles.dart';
 import 'package:navoiy/widgets/footer.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -53,6 +51,7 @@ class HomeScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20.0),
                 child: ListView.separated(
+                  physics: const NeverScrollableScrollPhysics(),
                     shrinkWrap: true,
                     itemCount: DataService().getData().length,
                     separatorBuilder: (context, index) {

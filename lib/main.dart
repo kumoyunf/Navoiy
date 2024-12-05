@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navoiy/provider/animation_provider.dart';
 import 'package:navoiy/provider/text_settings.dart';
 import 'package:provider/provider.dart';
 import 'router.dart';
@@ -6,9 +7,10 @@ import 'router.dart';
 void main() {
   // WidgetsFlutterBinding.ensureInitialized();
   // SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
-  runApp(MultiProvider(
-      providers: [ChangeNotifierProvider(create: (ctx) => TextSettings())],
-      child: const MainApp()));
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(create: (ctx) => TextSettings()),
+    ChangeNotifierProvider(create: (ctx) => AnimationProvider()),
+  ], child: const MainApp()));
 }
 
 class MainApp extends StatelessWidget {

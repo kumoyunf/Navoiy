@@ -81,6 +81,8 @@ class ViewScreen extends StatelessWidget {
                             children: [
                               Text("Shrift tanlash:", style: mediumTextStyle()),
                               DropdownButton<String>(
+                                style: TextStyle(color: textColor),
+                                dropdownColor: dark,
                                 value: Provider.of<TextSettings>(context,
                                         listen: false)
                                     .fontFamily,
@@ -95,7 +97,8 @@ class ViewScreen extends StatelessWidget {
                                   'Arial',
                                   'Courier',
                                   'Times',
-                                  'Verdana'
+                                  'Verdana',
+                                  'Roboto'
                                 ].map<DropdownMenuItem<String>>((String font) {
                                   return DropdownMenuItem<String>(
                                       value: font,
@@ -106,7 +109,6 @@ class ViewScreen extends StatelessWidget {
                             ],
                           ),
 
-                          // Orqa fon rangini tanlash
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -123,7 +125,6 @@ class ViewScreen extends StatelessWidget {
                                   gold,
                                   steelBlue,
                                   lightBlue,
-                                  darkSlateGray
                                 ].map((color) {
                                   return GestureDetector(
                                     onTap: () {
@@ -214,7 +215,10 @@ class ViewScreen extends StatelessWidget {
                   ),
                 ),
               );
-              showDialog(context: context, builder: (context) => dialog, barrierDismissible: false);
+              showDialog(
+                  context: context,
+                  builder: (context) => dialog,
+                  barrierDismissible: false);
             },
           )
         ],
@@ -248,7 +252,7 @@ class ViewScreen extends StatelessWidget {
                   ],
                 ),
                 child: GestureDetector(
-                  onScaleUpdate: (ScaleUpdateDetails details){
+                  onScaleUpdate: (ScaleUpdateDetails details) {
                     if (details.scale > 1) {
                       textSettings.increaseFontSize(size: 0.08);
                     } else if (details.scale < 1) {

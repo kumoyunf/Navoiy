@@ -98,13 +98,114 @@ OʻzMUda „Xamsa“ni tadqiq etish borasida B.Qosimov, B.Akrom, H.Boltaboev, A.
   },
 ];
 
+enum Category {
+  dotsent, teacher, student
+}
+
 List<dynamic> authors = [
   {
-    "name": "Akobir Xushvaqtov",
-    "description": "Web Developer",
+    "name": "Arslonov Abdumurod",
+    "category": Category.dotsent,
+    "description": "Dotsent",
   },
   {
-    "name": "Xumoyun Xakimjonov",
-    "description": "Mobile Developer",
-  }
+    "name": "Abdullayeva Nilufar",
+    "category": Category.teacher,
+    "description": "O'qituvchi",
+  },
+  {
+    "name": "Xoʻjamuratova Fotima",
+    "category": Category.student,
+    "description": "Talaba",
+  },
+  {
+    "name": "Abdulhamidova Lobar",
+    "category": Category.student,
+    "description": "Talaba",
+  },
+  {
+    "name": "Abdullayeva Muxlisa",
+    "category": Category.student,
+    "description": "Talaba",
+  },
+  {
+    "name": "Abdurashidova Munisa",
+    "category": Category.student,
+    "description": "Talaba",
+  },
+  // {
+  //   "name": "Asatullayeva Durdona",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Choriyeva Mavluda",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Mamayusupova Nilufar",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Mirzayeva Dilorom",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Muqimova Feruza",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Murodova Zahro",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Moʻminova Muxlisa",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Normoʻminov Zohid",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Nazarova Mehriniso",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Orifxonova Nilufar",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Rahmonqulova Nargiza",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Xamidova Kamola",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Xolmirzayeva Dilnoza",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Xudoynazarova Dildora",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // },
+  // {
+  //   "name": "Ziyodullayeva Baxtiniso",
+  //   "category": Category.student,
+  //   "description": "Mobile Developer",
+  // }
 ];
