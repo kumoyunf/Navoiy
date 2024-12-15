@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:navoiy/models/author_model.dart';
-import 'package:navoiy/screens/author_screen.dart';
-import '../../models/data_model.dart';
-import '../../screens/chapter_screen.dart';
-import '../../screens/home_screen.dart';
+import 'models/author_model.dart';
+import 'screens/author_screen.dart';
+import 'models/data_model.dart';
+import 'screens/chapter_screen.dart';
+import 'screens/home_screen.dart';
 import 'screens/view_screen.dart';
 
 class OnGenerateRouter {

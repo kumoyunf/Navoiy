@@ -18,6 +18,14 @@ List<dynamic> jsonData = [
         "name": "Badoye' ul-bidoya.",
         "path": "assets/files/4.doc"
       },
+      {
+        "name": "Badoye' ul-bidoya.",
+        "path": "assets/files/5.doc"
+      },
+      {
+        "name": "Badoye' ul-bidoya.",
+        "path": "assets/files/6.doc"
+      },
     ]
   },
   {
